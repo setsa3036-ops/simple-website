@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(187, 105, 76, 0.349);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    font-size: 19px;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(240, 240, 240), rgb(212, 200, 184));
+}
+#headerTable{
+    width: 100%;
+    background-color: rosybrown;
+}
+
+.logo{
+    width: 90px;
+}
+
+nav{
+    padding-right: 34px;
+    margin-left: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav ul :hover{
+    color: white;
+    padding: 5px;
+    background-color: rgb(209, 176, 202);
+    border-radius: 5px;
+}
+
+.wrapper{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+}
+
+.card{
+    background-color: aliceblue;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h1{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: black;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+footer{
+    background-color: rgba(95, 26, 16, 0.253);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+table{
+    width: 600px;
+    border-collapse: collapse;
+    margin: 20px, auto;
+    font-size: 15px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(127, 29, 151);
+}
+
+tr{
+    height: 30px;
+}

@@ -1,0 +1,58 @@
+#Simple Multi-page Website
+
+This is a beginner-friendly multi-pages website built using HTML and CSS.
+It includes a Home, About, and Contact Page.
+
+---
+
+## Project Structure
+
+```
+
+simple-website/
+|
+|___index.html
+|___about.html
+|___contact.html
+|___style.scc 
+|___README.md
+```
+
+## Pages
+
+-**index.html** -> Home Page 
+-**about.html** -> About Page 
+-**contact.html** -> Contact Page 
+
+All pages are connected using a simple navigation bar 
+
+---
+
+## Features
+
+-Clean and simple design
+-Navigation bar on all pages
+-Responsive layout
+-Separate CSS friendly
+
+## Technologies used
+
+-HTML5 
+-CSS 
+
+--- 
+## Notes  
+
+-Make sure your home page file is named **index.html** 
+-All files must be in the root folder(not inside another folder)
+
+---
+##Author
+
+Mosetsanagape Reginah Mojaditlhogo
+
+--- 
+
+## License
+
+This project is open-source and free to use for learning purposes.
